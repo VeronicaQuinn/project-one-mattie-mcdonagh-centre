@@ -1,3 +1,24 @@
+/*#logo {
+    float: left;
+}
+
+.header-nav {
+    float: right;
+}*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .social-networks {
     list-style-type: none;
+
 }
+
+footer {
+    clear: both;
+}
+
+
+
