@@ -1,24 +1,30 @@
-/*#logo {
-    float: left;
+body {
+    margin: 0;
+    padding: 0;
 }
-
-.header-nav {
-    float: right;
-}*/
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+footer {
+    height: 120px;
+    background-color: #800000;
+}
+
+
 .social-networks {
     list-style-type: none;
+    display: flex;
+    justify-content: space-around;
     
 }
 
-footer {
-    clear: both;
-    
+
+.social-networks i {
+    color: grey;   
 }
 
 
