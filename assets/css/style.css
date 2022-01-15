@@ -27,5 +27,28 @@ footer {
     color: grey;   
 }
 
+.page-headings {
+    text-align: center;
+    text-decoration: underline #800000;
+}
+
+
+.facilities-main {
+    display: flex;
+    
+    margin: 0 60px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.facilities-main > img {
+    height: 120px;
+    width: 150px;
+    flex-basis: 22% 46% 22%;
+    
+}
+
+
+
 
 
