@@ -1,46 +1,84 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    border: none;
 }
+
+body {
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+}
+/*header*/
 
 h1 {
     max-width: 150px;
+    font-size: xx-large;
+    color: rgb(130, 183, 243);
 }
 
 header {
+    padding: 20px;
     background: url(../images/mattie-mcdonagh-placeholder.jpg) no-repeat center center / cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.header-nav {
+    display: flex;
+    list-style-type: none;
+    align-items: center    
+}
 
+.header-nav a {
+color: rgb(130, 183, 243);
+}
+
+/*nav bar*/
+
+.nav-bar-container {
+    height: 100px;
+    background-color: rgb(130, 183, 243);
+    
+
+}
+
+.nav-bar a {
+    color: azure;
+}
+.nav-bar-list {
+    display: flex;
+}
 
 .nav-bar {
     display: flex;
+    height: 100%;
+    align-items: center;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    
 }
 
- #nav-home {
+#nav-home {
     flex: 1;
 }
 
-.nav-bar-list {
+#nav-bar-list {
     flex: 1;
     display: flex;
+    justify-content: flex-end;
 }
 
-#nav-one, #nav-two, #nav-three {
+#nav-bar-list > li {
     flex: 1;
 }
 
-
+/*footer*/
 
 footer {
     height: 49px;
-    background-color: #800000;
+    background-color: #2f2366;
     padding: 0 200px;
 }
 
@@ -55,8 +93,10 @@ footer {
 
 
 .social-networks i {
-    color: grey;   
+    color: rgb(130, 183, 243)   
 }
+
+/*footer ends*/
 
 .page-headings {
     text-align: center;

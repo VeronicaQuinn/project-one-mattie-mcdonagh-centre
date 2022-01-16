@@ -20,43 +20,50 @@
 
         <nav>
             <ul class="header-nav">
-                <li>
-                    <a href="tel:+353879800088">Phone: (087) 980 0088</a>
-                </li>
-                <li>
-                    <a href="mailto:mmcdonaghcentre@gmail.com">Email: mmcdonaghcentre@gmail.com</a>
-                </li>
-                <li>
-                    <img src="https://dummyimage.com/200x130/0000ff.png" alt="">
-                    <p>Address: Ballygar, Conty Galway F42 H53</p>
-                </li>
+                <div class="header-nav-list">
+                    <li>
+                        <a href="tel:+353879800088">Phone: (087) 980 0088</a>
+                    </li>
+                    <li>
+                        <a href="mailto:mmcdonaghcentre@gmail.com">Email: mmcdonaghcentre@gmail.com</a>
+                    </li>
+                </div>
+                <div class="header-nav-map">
+                    <li>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18976.346043161186!2d-8.3363698519287!3d53.52128434786634!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x907a066ce514dd9c!2sMattie%20McDonagh%20Centre!5e0!3m2!1sen!2sie!4v1642369147585!5m2!1sen!2sie"
+                            width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </li>
+                </div>
             </ul>
         </nav>
     </header>
 
-    <section>
-        <nav>
-            <ul class="nav-bar">
-                <li id="nav-home">
+
+    <nav class="nav-bar-container">
+        <ul class="nav-bar">
+            <div id="nav-home">
+                <li>
                     <a href="index.html">HOME</a>
                 </li>
-                <div class="nav-bar-list">
-                <li id="nav-one">
-                    <a href="schedule.html">Schedules</a>
+            </div>
+            <div id="nav-bar-list">
+                <li>
+                    <a href="schedule.html">Schedule</a>
                 </li>
-                <li id="nav-two">
+                <li>
                     <a href="facilities.html">Our Facilities</a>
                 </li>
-                <li id="nav-three">
+                <li>
                     <a href="membership.html">Become a MEMBER!</a>
                 </li>
-                </div>
-            </ul>
-        </nav>
-    </section>
+            </div>
+        </ul>
+    </nav>
+
 
     <section>
-        About 
+        <h2 class="page-headings">About</h2>
     </section>
 
     <footer>
@@ -64,7 +71,7 @@
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)"><i
-                        class="fab fa-facebook-square"></i></i></a>
+                        class="fab fa-facebook-square"></i></a>
             </li>
             <li>
                 <a href="https://twitter.com" target="_blank" rel="noopener"
@@ -80,6 +87,7 @@
                         class="fab fa-instagram-square"></i></a>
             </li>
         </ul>
+        
     </footer>
 
     <!-- font awesome script -->
