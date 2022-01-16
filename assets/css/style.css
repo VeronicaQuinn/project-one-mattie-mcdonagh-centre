@@ -3,15 +3,21 @@ body {
     padding: 0;
 }
 
-.header {
+h1 {
+    max-width: 150px;
+}
+
+header {
+    background: url(../images/mattie-mcdonagh-placeholder.jpg) no-repeat center center / cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 footer {
-    height: 120px;
+    height: 49px;
     background-color: #800000;
+    padding: 0 200px;
 }
 
 
@@ -19,7 +25,8 @@ footer {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    
+    height: 100%;
+    align-items: center;
 }
 
 
@@ -33,20 +40,6 @@ footer {
 }
 
 
-.facilities-main {
-    display: flex;
-    
-    margin: 0 60px;
-    box-sizing: border-box;
-    justify-content: space-between;
-}
-
-.facilities-main > img {
-    height: 120px;
-    width: 150px;
-    flex-basis: 22% 46% 22%;
-    
-}
 
 
 
