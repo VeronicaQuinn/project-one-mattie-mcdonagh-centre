@@ -32,6 +32,10 @@ header {
     align-items: center    
 }
 
+.header-nav-list {
+    padding-right: 14px;
+}
+
 .header-nav a {
 color: rgb(130, 183, 243);
 }
