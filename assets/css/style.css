@@ -99,8 +99,23 @@ footer {
 /*footer ends*/
 
 .page-headings {
+    padding: 20px;
     text-align: center;
     text-decoration: underline #800000;
+}
+
+.facilities-main {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.facilities img {
+    height: 200px;
+    width: 250px;
+    padding: 5px;
+    overflow: hidden;
+    flex-basis: 23%;
 }
 
 
