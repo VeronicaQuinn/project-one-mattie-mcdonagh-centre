@@ -14,13 +14,14 @@ body {
 
 h1 {
     max-width: 150px;
-    font-size: xx-large;
+    font-size: xxx-large;
     color: rgb(130, 183, 243);
 }
 
 header {
     padding: 20px;
-    background: url(../images/mattie-mcdonagh-placeholder.jpg) no-repeat center center / cover;
+    background-color: #2f2366;
+    /* background: url(../images/mattie-mcdonagh-placeholder.jpg) no-repeat center center / cover; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,8 +37,19 @@ header {
     padding-right: 14px;
 }
 
+.header-nav-list li {
+    font-size: medium;
+    padding-bottom: 16px;
+    color: rgb(130, 183, 243);
+}
+
+.header-nav-map {
+    border: 3px solid rgb(130, 183, 243)
+}
+
 .header-nav a {
-color: rgb(130, 183, 243);
+    color: rgb(130, 183, 243);
+
 }
 
 /*nav bar*/
@@ -45,7 +57,7 @@ color: rgb(130, 183, 243);
 .nav-bar-container {
     height: 100px;
     background-color: rgb(130, 183, 243);
-    
+    padding-left: 10px;
 
 }
 
@@ -64,8 +76,17 @@ color: rgb(130, 183, 243);
     
 }
 
+.nav-bar a:hover {
+    color: salmon;
+
+}
+
 #nav-home {
     flex: 1;
+}
+
+#nav-home a {
+    font-size: large;
 }
 
 #nav-bar-list {
@@ -77,6 +98,7 @@ color: rgb(130, 183, 243);
 #nav-bar-list > li {
     flex: 1;
 }
+
 
 /*footer*/
 
