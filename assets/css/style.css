@@ -48,6 +48,10 @@ header {
     border: 3px solid rgb(130, 183, 243)
 }
 
+.header-nav-map iframe {
+    position: relative;
+}
+
 .header-nav a {
     color: rgb(130, 183, 243);
 
@@ -148,11 +152,27 @@ footer {
 
 /*schedule page*/
 
+@media screen and (max-width: 600px) {
+    table {transform: rotate(90deg);
+    }
+    
+}
+
+#schedule-table {
+    clear: both;
+}
+
 table {
     width:100%;
     border-collapse:collapse;
+    
 }
 
 table, th, td {
         border: 2px solid blue
     }
+
+td {
+    text-align: left;
+    padding: 12px;
+}
