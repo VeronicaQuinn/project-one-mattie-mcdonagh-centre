@@ -10,6 +10,7 @@ body {
     font-family: Poppins, sans-serif;
     font-weight: 300;
 }
+
 /*header*/
 
 h1 {
@@ -30,7 +31,7 @@ header {
 .header-nav {
     display: flex;
     list-style-type: none;
-    align-items: center    
+    align-items: center
 }
 
 .header-nav-list {
@@ -52,18 +53,20 @@ header {
 
 }
 
+/*header ends*/
+
 /*nav bar*/
 
 .nav-bar-container {
     height: 100px;
     background-color: rgb(130, 183, 243);
     padding-left: 10px;
-
 }
 
 .nav-bar a {
     color: azure;
 }
+
 .nav-bar-list {
     display: flex;
 }
@@ -73,12 +76,10 @@ header {
     height: 100%;
     align-items: center;
     list-style-type: none;
-    
 }
 
 .nav-bar a:hover {
     color: salmon;
-
 }
 
 #nav-home {
@@ -95,10 +96,10 @@ header {
     justify-content: flex-end;
 }
 
-#nav-bar-list > li {
+#nav-bar-list>li {
     flex: 1;
 }
-
+/*nav bar ends*/
 
 /*footer*/
 
@@ -117,11 +118,9 @@ footer {
     align-items: center;
 }
 
-
 .social-networks i {
-    color: rgb(130, 183, 243)   
+    color: rgb(130, 183, 243)
 }
-
 /*footer ends*/
 
 .page-headings {
@@ -129,6 +128,8 @@ footer {
     text-align: center;
     text-decoration: underline #800000;
 }
+
+/*facilities page*/
 
 .facilities-main {
     display: flex;
@@ -143,10 +144,15 @@ footer {
     overflow: hidden;
     flex-basis: 23%;
 }
+/*facilities page ends*/
 
+/*schedule page*/
 
+table {
+    width:100%;
+    border-collapse:collapse;
+}
 
-
-
-
-
+table, th, td {
+        border: 2px solid blue
+    }
