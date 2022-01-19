@@ -12,6 +12,12 @@ The committee wants this website:
 <li>To showcase and promote the Centre as a venue both within the local community and to also reach a wider audience</li>
 <li>To increase membership</li>
 <li>To provide up-to-date information to users and the broader community</li>
+</ol>
+
+# Proposed setup
+<ul>
+<li>Home page - index.html
+Header = Logo
 
 
 
