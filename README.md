@@ -21,12 +21,37 @@ The committee wants this website:
 
 <p>The four pages of the website will be designed with a view to meeting each of the three main aims individually but with a cohesive flow between them</p>
 <ul>
-<li>The HOME page will give a brief history of the Mattie McDonagh Centre and a description of its place in the community.  It will contain links to the other pages within the website, external links for email, phone and an embedded google map</li>
-<li>The SCHEDULE page will contain a table featuring the sports hall schedule</li>
-<li>The FACILITIES page will include numerous images of everything that the Centre has to offer</li>
-<li>The BECOME A MEMBER! page will contain a membership form which will include different input types, radio buttons, a checkbox and submit with a number of required inputs</li>
+<li>The <u>HOME</u> page will give a brief history of the Mattie McDonagh Centre and a description of its place in the community.  It will contain links to the other pages within the website, external links for email, phone and an embedded google map</li>
+<li>The <u>SCHEDULE</u> page will contain a table featuring the sports hall schedule</li>
+<li>The <u>FACILITIES</u> page will include numerous images of everything that the Centre has to offer</li>
+<li>The <u>BECOME A MEMBER!</u> page will contain a membership form which will include different input types, radio buttons, a checkbox and submit with a number of required inputs</li>
 
 ### Structure Plane
+
+### Skeleton Plane
+
+### Surface Plane
+
+## Technologies Used
+
+## Credit & Resources Used
+
+<ul>
+<li>Code Institute Diploma in Software Development (E-commerce Applications) Programme materials</li>
+<li>Code Institute Slack Community in particular:
+<ul><li>DaveHorrocks_5P_lead</li>
+<li>Rachel Rock</li>
+</ul>
+<li>Love Running walk-through sample project</li>
+<li>https://www.w3schools.com</li>
+<li>https://stackoverflow.com</li>
+<li>YouTube: Web Dev Simplified channel</li>
+<li>YouTube: LearnWebCode channel</li>
+<li>www.campaignmonitor.com (for phone link)</li>
+<li>Google maps</li>
+<li>Font Awesome (icons)</li>
+<li>Google Fonts</li>
+</ul> 
 
 
 
