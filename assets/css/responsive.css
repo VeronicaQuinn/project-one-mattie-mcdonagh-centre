@@ -4,8 +4,33 @@
 
 .nav-bar {
     justify-content: space-between;
+    padding: 0 8px;
 }
 
 .nav-bar-container {
     padding: 0 0 35px;
+}
+
+.nav-bar a {
+    font-size: 15.5pt;
+}
+
+footer {
+    justify-content: space-evenly;
+    padding: 0 50px;
+}
+
+@media screen and (max-width: 600px) {
+    #schedule-table {
+        padding: 0;
+        height: 100%;
+    }   
+    table {
+        transform: rotate(90deg);   
+    }
+
+    .nav-bar-container{display: flex;}
+    .nav-bar-container ul {
+        flex-basis: 50%;
+        }
 }

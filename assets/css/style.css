@@ -45,6 +45,7 @@ h1 {
     justify-self: flex-start;
     flex: 2;
     text-shadow: 5px 5px #4F000B;
+    padding-left: 8px;
 }
 
 .header-nav-list {
@@ -59,7 +60,6 @@ h1 {
 .header-nav a {
     color: rgb(130, 183, 243);
     text-shadow: 3px 3px #4F000B;
-
 }
 
 .header-nav a:hover {
@@ -76,6 +76,7 @@ h1 {
 #header-nav-map {
     box-shadow: 5px 5px #4F000B;
     box-sizing: border-box;
+    padding-right: 8px;
 }
 
 /*header ends*/
@@ -167,19 +168,6 @@ footer {
 /*facilities page ends*/
 
 /*schedule page*/
-
-@media screen and (max-width: 600px) {
-    #schedule-table {
-        padding: 0;
-        height: 100%;
-    }
-    
-    table {
-        transform: rotate(90deg);   
-    }
-
-
-}
 
 #schedule-table {
     padding: 22px;
