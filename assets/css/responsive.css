@@ -1,0 +1,11 @@
+#header-nav-map {
+    display: none;
+}
+
+.nav-bar {
+    justify-content: space-between;
+}
+
+.nav-bar-container {
+    padding: 0 0 35px;
+}

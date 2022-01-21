@@ -5,7 +5,6 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
-    
 }
 
 body {
@@ -13,15 +12,27 @@ body {
     font-weight: 300;
 }
 
+a {
+    text-decoration: none;
+}
+
+h2 {
+    padding: 12px 0 15px;
+    font-size: xx-large;
+    font-weight: 1000;
+    text-shadow: 1px 1px 0 #4F000B;
+
+}
+
 /*header*/
 
 header {
     padding: 5px;
-    background-color: #2f2366;
+    background-color: #23297A;
     /* background: url(../images/mattie-mcdonagh-placeholder.jpg) no-repeat center center / cover; */
     display: flex;
     align-items: center;
-    justify-content:flex-end;
+    justify-content: flex-end;
     width: 100%;
     position: fixed;
     top: 0;
@@ -30,21 +41,29 @@ header {
 
 h1 {
     font-size: xxx-large;
-    color: rgb(130, 183, 243);
+    color: #A2BCE0;
     justify-self: flex-start;
-    flex: 2;   
+    flex: 2;
+    text-shadow: 5px 5px #4F000B;
 }
 
-.header-nav-list {    
-    flex:1;
-} 
+.header-nav-list {
+    flex: 1;
+}
 
 .header-nav {
-    padding-right: 14px;    
+    padding-right: 14px;
+    text-shadow: 3px 3px #4F000B;
 }
 
 .header-nav a {
-    color:rgb(130, 183, 243);
+    color: rgb(130, 183, 243);
+    text-shadow: 3px 3px #4F000B;
+
+}
+
+.header-nav a:hover {
+    color: #C95D63;
 }
 
 .header-nav-list li {
@@ -53,38 +72,44 @@ h1 {
     color: rgb(130, 183, 243);
     list-style-type: none;
 }
+
+#header-nav-map {
+    box-shadow: 5px 5px #4F000B;
+    box-sizing: border-box;
+}
+
 /*header ends*/
 
 /*nav bar*/
 
- .nav-bar-container {
+.nav-bar-container {
     height: 100px;
     background-color: rgb(130, 183, 243);
-    padding-left: 10px;
-    margin-top:250px;
-    padding-bottom: 40px;
-    
- }
+    padding: 0 0 35px 10px;
+    margin-top: 250px;
+    width: 100%;
+}
 
- .nav-bar {
+.nav-bar {
     display: flex;
-     align-items: flex-end;
-     justify-content: space-evenly;
-     height: 100%;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    height: 100%;
+}
 
- }
 .nav-bar a {
-    color: #2f2366;
+    color: #4F000B;
     font-size: x-large;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 900;
 }
+
 .nav-bar li {
     list-style-type: none;
 }
 
 .nav-bar a:hover {
-    color: salmon;
+    color: #C95D63;
 }
 
 /*nav bar ends*/
@@ -93,7 +118,7 @@ h1 {
 
 footer {
     height: 49px;
-    background-color: #2f2366;
+    background-color: #23297A;
     padding: 0 200px;
 }
 
@@ -106,14 +131,21 @@ footer {
 }
 
 .social-networks i {
-    color: rgb(130, 183, 243)
+    color: rgb(130, 183, 243);
+    border: 2px solid #4F000B;
+    font-size: 22px;
 }
+
+.social-networks i:hover {
+    color: #C95D63;
+}
+
 /*footer ends*/
 
 .page-headings {
     padding: 20px;
     text-align: center;
-    text-decoration: underline #800000;
+    text-decoration: underline #4F000B;
 }
 
 /*facilities page*/
@@ -131,31 +163,46 @@ footer {
     overflow: hidden;
     flex-basis: 23%;
 }
+
 /*facilities page ends*/
 
 /*schedule page*/
 
 @media screen and (max-width: 600px) {
-    table {transform: rotate(90deg);
+    #schedule-table {
+        padding: 0;
+        height: 100%;
     }
     
+    table {
+        transform: rotate(90deg);   
+    }
+
+
 }
 
 #schedule-table {
-    clear: both;
+    padding: 22px;
 }
 
 table {
-    width:100%;
-    border-collapse:collapse;
-    
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fae6fa;
+    padding: 16px 10px;
 }
 
-table, th, td {
-        border: 2px solid blue
-    }
+th,
+td {
+    padding: 16px 0;
+}
+
+table,
+th,
+td {
+    border: 2px solid #23297A;
+}
 
 td {
     text-align: left;
-    padding: 12px;
 }
