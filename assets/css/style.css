@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
+    width: auto;
 }
 
 body {
@@ -153,16 +154,21 @@ footer {
 
 .facilities-main {
     display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
+    justify-content: space-around;
+    padding: 3px 7px 20px;
 }
 
 .facilities img {
     height: 200px;
-    width: 250px;
     padding: 5px;
     overflow: hidden;
-    flex-basis: 23%;
+    width: 250px;
+    flex-basis: 33%;
+}
+
+.facilities-content {
+    padding: 0 8px ;
+    align-content: baseline;
 }
 
 /*facilities page ends*/
@@ -194,3 +200,13 @@ td {
 td {
     text-align: left;
 }
+
+input {
+    border: 2px solid #4F000B;
+}
+
+form {
+    padding: 20px 200px;
+    border-color: #4F000B;
+}
+
