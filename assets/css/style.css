@@ -75,9 +75,7 @@ h1 {
 }
 
 #header-nav-map {
-    box-shadow: 5px 5px #4F000B;
-    box-sizing: border-box;
-    padding-right: 8px;
+        padding-right: 8px;
 }
 
 /*header ends*/
@@ -168,7 +166,7 @@ footer {
 
 .facilities-content {
     padding: 0 8px ;
-    align-content: baseline;
+    align-content: center;
 }
 
 /*facilities page ends*/
@@ -201,12 +199,73 @@ td {
     text-align: left;
 }
 
-input {
+/* form*/
+
+.form-section {
+    
+    background-color:#23297A; 
+} 
+
+input, textarea {
     border: 2px solid #4F000B;
+    border-radius: 3px;
+    padding: 8px;
+    width: 340px;
 }
 
 form {
-    padding: 20px 200px;
-    border-color: #4F000B;
+    padding: 48px 200px;
+    background-color: #fae6fac7;
+    justify-self: center;
+    width: 63%;
 }
 
+label {
+    display: block;
+    margin-top: 1em;
+    font-size: xx-large;
+    font-weight: 700;
+    color: #4F000B;
+}
+
+.form-buttons label {
+    display: inline-block;
+    padding:3px 10px 3px 4px;
+}
+
+input[type=radio] {
+    width: min-content;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+button[type=radio] {
+    height: 10px;
+    width: 10px;
+}
+
+#checkbox-agree-terms {
+display: flex;
+align-items: flex-start;
+margin-top: 10px;
+}
+
+#checkbox-agree-terms label {
+    margin: 0;
+}
+
+input[type=checkbox] {
+    width:77px;
+ }
+
+button[type=submit] {
+    padding: 10px;
+    background-color: #4F000B;
+    color:#A2BCE0;
+    font-size:large;
+    border-radius: 11px;
+   
+}
+
+
+/* form ends*/
