@@ -11,6 +11,7 @@
 body {
     font-family: Poppins, sans-serif;
     font-weight: 300;
+    background-color: #FDF0D5;
 }
 
 a {
@@ -157,16 +158,18 @@ footer {
 }
 
 .facilities img {
-    height: 200px;
-    padding: 5px;
+    height: 263px;
+    padding: 5px 0;
     overflow: hidden;
-    width: 250px;
-    flex-basis: 33%;
+    align-self: center;
+    border-radius: 8px;
+    
 }
 
 .facilities-content {
-    padding: 0 8px ;
+    padding: 0 23px;
     align-content: center;
+    flex-basis: 50%;
 }
 
 /*facilities page ends*/
