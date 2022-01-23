@@ -19,14 +19,24 @@ a {
     text-decoration: none;
 }
 
-h2 {
-    padding: 12px 0 15px;
+h2, h3 {
     font-size: xx-large;
     font-weight: 1000;
     text-shadow: 1px 1px 0 #FDF0D5;
-    ;
+    text-decoration: underline #4F000B;
 
 }
+
+h3 {
+    padding: 12px 0 15px;
+    font-size: x-large;
+}
+
+.page-headings {
+    padding: 20px;
+    text-align: center;
+}
+
 
 /*header*/
 
@@ -152,32 +162,47 @@ footer {
 
 /*footer ends*/
 
-.page-headings {
-    padding: 20px;
-    text-align: center;
-    text-decoration: underline #4F000B;
-}
-
 /*facilities page*/
 
-/* .facilities-main {
+.facilities-main-hall div {
+    float: left;
+}
 
+
+.facilities-field {
+   
+}
+
+.facilities-gym {
+    
+}
+
+.facilities-kitchen {
+    
 }
 
 .facilities img {
     height: 263px;
-    padding: 5px 0;
-    overflow: hidden;
-    align-self: center;
-    border-radius: 8px;
     
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 8px;
 }
+
+.facilities-content-main {
+    width: 33%;
+}
+/* 
+.right {
+    float: right;
+}
+
+.left {float: left;} */
 
 .facilities-content {
     padding: 0 25px;
-    align-content: center;
-    flex-basis: 50%;
-} */
+    
+} 
 
 
 
