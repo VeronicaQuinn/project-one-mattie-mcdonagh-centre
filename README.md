@@ -51,6 +51,7 @@ The committee wants this website:
 <li>Google maps</li>
 <li>Font Awesome (icons)</li>
 <li>Google Fonts</li>
+<li>Stocksnap.io</li>
 </ul> 
 
 

@@ -15,6 +15,11 @@
     font-size: 15.5pt;
 }
 
+input,
+textarea {
+    width: 100%;
+}
+
 footer {
     justify-content: space-evenly;
     padding: 0 50px;
@@ -26,11 +31,9 @@ footer {
         height: 100%;
     }   
     table {
-        transform: rotate(90deg);   
+        transform: rotate(90deg);
+        width:100%;
+           
     }
 
-    .nav-bar-container{display: flex;}
-    .nav-bar-container ul {
-        flex-basis: 50%;
-        }
 }
