@@ -8,7 +8,7 @@
 }
 
 .nav-bar-container {
-    padding: 0 0 35px;
+    padding: 0 0 31px;
 }
 
 .nav-bar a {
@@ -31,14 +31,14 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-   /* header {
+    header {
         padding: 5px 5px 5px 7px;
         background-color: #23297A;
         width: 100%;
         position: fixed;
         top: 0;
         height: auto;
-    }*/
+    }
     
     .header-nav {
         padding: 18px 0 20px 44px;
@@ -51,9 +51,7 @@ footer {
     }   
     table {
         transform: rotate(90deg);
-        width:100%;       
+        width:100%;
+        overflow-x: scroll;      
     }
-
-   
-
 }
