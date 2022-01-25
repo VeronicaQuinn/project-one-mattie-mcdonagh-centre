@@ -11,7 +11,7 @@
 body {
     font-family: Poppins, sans-serif;
     font-weight: 300;
-    background:#fae6fa;
+    background: #fae6fa;
     background-size: 16px 48px;
 }
 
@@ -19,12 +19,19 @@ a {
     text-decoration: none;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-size: xx-large;
     font-weight: 1000;
     text-shadow: 1px 1px 0 #FDF0D5;
     text-decoration: underline #4F000B;
+}
 
+h4 {
+    font-size: large;
+    font-weight: 1000;
+    text-shadow: 1px 1px 0 #FDF0D5;
+    text-decoration: underline #4F000B;
 }
 
 h3 {
@@ -90,7 +97,7 @@ h1 {
 }
 
 #header-nav-map {
-    padding-right: 11px;   
+    padding-right: 11px;
 }
 
 #header-nav-map iframe {
@@ -109,7 +116,6 @@ h1 {
     padding: 20px;
     margin-top: 250px;
     width: 100%;
-    position: relative;
 }
 
 .nav-bar {
@@ -142,6 +148,8 @@ footer {
     height: 49px;
     background-color: #23297A;
     padding: 0 200px;
+    display: block;
+    clear: both;
 }
 
 .social-networks {
@@ -167,56 +175,116 @@ footer {
 /*home page*/
 
 .about {
-    padding:30px;
+    padding: 30px;
     width: 70%;
     margin: auto;
-    }
+}
 
 
 
 
 /*facilities page*/
 
-.facilities-main-hall div {
-    float: left;
-}
-
-
-.facilities-field {
-   float: left;
-}
-
-.facilities-gym {
-    float: left;
-}
-
-.facilities-kitchen {
-   float: left; 
+#main-hall-header {
+    width: auto;
+    margin: auto;
+    text-align: center;
 }
 
 .facilities img {
-    height: 100%;
-    width: auto;    
-    padding: 10px;
+    border-radius: 10px;
+}
+
+.facilities-main-hall {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.main-hall-image {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.main-hall-content1 {
+    flex-basis: 27%;
+}
+
+.main-hall-column2 {
+    flex-basis: 56%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-hall-banquet-image {
+    flex-basis: 69%;
+    height: auto;
+    width: 60%;
+    padding: 18px 0 0;
     overflow: hidden;
-    border-radius: 8px;
+    align-self: center;
 }
 
-.facilities-content {
-    width: 33%;
+.facilities-field {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    border-top: 2px solid #A2BCE0;
+    padding: 40px 0 10px;
 }
- /*
-.right {
-    float: right;
+
+.goalposts-image {
+    flex-basis: 33%;
+    overflow: hidden;
 }
 
-.left {float: left;} */
+.field-content {
+    flex-basis: 24%;
+}
 
-.facilities-content {
-    padding: 0 25px;
-    
-} 
+.dressing-rooms-content {
+    padding: 0 30px;
+}
 
+.field-hurley-image {
+    flex-basis: 26%;
+    margin: auto 0;
+}
+
+.facilities-gym {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    border-top: 2px solid #A2BCE0;
+    padding: 40px 0;
+}
+
+.gym-image {
+    flex-basis: 35%;
+}
+
+.gym-content {
+    flex-basis: 40%;
+    align-self: center;
+}
+
+
+.facilities-kitchen {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    border-top: 2px solid #A2BCE0;
+    padding: 40px 31px;
+}
+
+.kitchen-image {
+    flex-basis: 35%;
+}
+
+.kitchen-content {
+    flex-basis: 37%;
+    align-self: center;
+}
 
 
 /*facilities page ends*/
@@ -314,8 +382,9 @@ button[type=radio] {
 input[type=checkbox] {
     float: left;
     width: 24px;
-    height: 17px;   
+    height: 17px;
 }
+
 /* Submit button */
 
 button[type=submit] {
@@ -327,7 +396,7 @@ button[type=submit] {
 }
 
 button[type=submit]:hover {
-    background-color:#A2BCE0;
+    background-color: #A2BCE0;
     border: #4F000B;
     color: #4F000B;
 }
@@ -348,22 +417,23 @@ button[type=submit]:hover {
     h1 {
         padding: 10px 10px 0;
     }
-    
+
     .header-nav {
         padding: 18px 0 20px 44px;
         text-shadow: 3px 3px #4f000b;
     }
-    
+
     #schedule-table {
         padding: 0;
         height: 100%;
-    }   
-    table {
-        transform: rotate(90deg);
-        width:100%;
-        overflow-x: scroll;      
     }
 
-   
+    table {
+        transform: rotate(90deg);
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+
 
 }
