@@ -11,7 +11,8 @@
 body {
     font-family: Poppins, sans-serif;
     font-weight: 300;
-    background: #fae6fa;
+    background: #FDF0D5;
+    background: url(../images/background.jpg) no-repeat center center / cover; 
     background-size: 16px 48px;
 }
 
@@ -24,7 +25,7 @@ h3 {
     font-size: xx-large;
     font-weight: 1000;
     text-shadow: 1px 1px 0 #FDF0D5;
-    text-decoration: underline #4F000B;
+    text-decoration: underline #780000;
 }
 
 h4 {
@@ -51,14 +52,16 @@ header {
     padding: 5px 5px 5px 7px;
     background-color: #23297A;
     /* background: url(../images/mattie-mcdonagh-placeholder.jpg) no-repeat center center / cover; */
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    justify-content: centre;
     width: 100%;
-    position: fixed;
+    position: sticky;
     top: 0;
-    height: 250px;
-    clear: both;
+    height: fit-content;
+}
+
+.header-section1 {
+    display: flex;
+    padding: 1em 0.5em 2em;
 }
 
 h1 {
@@ -66,13 +69,13 @@ h1 {
     letter-spacing: 3px;
     color: rgb(130, 183, 243);
     justify-self: flex-start;
-    flex: 2;
+    flex: 50%;
     text-shadow: 5px 5px #4F000B;
     padding-left: 8px;
 }
 
 .header-nav-list {
-    flex: 1;
+    flex: 25%;
 }
 
 .header-nav {
@@ -114,7 +117,7 @@ h1 {
     /* height: 165px; */
     background-color: rgb(130, 183, 243);
     padding: 20px;
-    margin-top: 250px;
+  
     width: 100%;
 }
 
@@ -162,12 +165,11 @@ footer {
 
 .social-networks i {
     color: rgb(130, 183, 243);
-    border: 2px solid #4F000B;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .social-networks i:hover {
-    color: #C95D63;
+    color: #FDF0D5;
 }
 
 /*footer ends*/
@@ -214,13 +216,13 @@ footer {
     flex-basis: 56%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .main-hall-banquet-image {
-    flex-basis: 69%;
+    flex-basis: 70%;
     height: auto;
-    width: 60%;
-    padding: 18px 0 0;
+    width: 89%;
     overflow: hidden;
     align-self: center;
 }
@@ -236,10 +238,11 @@ footer {
 .goalposts-image {
     flex-basis: 33%;
     overflow: hidden;
+    margin: auto 0;
 }
 
 .field-content {
-    flex-basis: 24%;
+    flex-basis: 34%;
 }
 
 .dressing-rooms-content {
@@ -247,8 +250,9 @@ footer {
 }
 
 .field-hurley-image {
-    flex-basis: 26%;
+    flex-basis: 25%;
     margin: auto 0;
+    overflow: hidden;
 }
 
 .facilities-gym {
@@ -292,8 +296,7 @@ footer {
 /*schedule page*/
 
 #schedule-table {
-    padding: 44px;
-}
+    padding: 5px 5px 30px;}
 
 table {
     width: 100%;

@@ -32,6 +32,13 @@ The committee wants this website:
 
 ### Surface Plane
 
+The colour palette fulfilled several desirous results
+<ol>
+<li>The colours were bright, varied and strongly contrasting</li>
+<li>The colours, in particular the two shades of blue and the red shades match the colours of the local GAA and LGFA clubs who are the primary users and supporters of the Centre</li>
+</ol>
+
+
 ## Technologies Used
 
 ## Credit & Resources Used
