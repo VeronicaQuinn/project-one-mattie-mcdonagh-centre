@@ -9,12 +9,25 @@
     padding: 0 8px;
 }
 
+.nav-bar ul {
+    justify-content: space-between;
+}
+
 .nav-bar-container {
-    padding: 0 0 31px;
+    padding: 1rem 0;
 }
 
 .nav-bar a {
     font-size: 15.5pt;
+    letter-spacing: 1px;
+    border-right: 2px solid #780000;
+padding: 3px
+}
+
+.nav-bar a:last-of-type {
+    
+    border-right: none;
+    padding: 3px 0 3px 3px;
 }
 
 .about {
@@ -72,26 +85,44 @@ footer {
      width: 50%;
 }
 }
-@media screen and (max-width: 600px) {
-    header {
-        padding: 5px 5px 5px 7px;
-        background-color: #23297A;
-        width: 100%;
-        position: fixed;
-        top: 0;
-        height: auto;
+
+@media screen and (max-width: 620px) {
+    .header-section1 {
+        display: block;
+        padding: 1em 2.5em 0.5em;
+        align-items: center;
     }
-    
+    h1 {
+        padding: 10px 10px 0;
+    }
+
     .header-nav {
         padding: 18px 0 20px 44px;
         text-shadow: 3px 3px #4f000b;
     }
-    
+
     #schedule-table {
         padding: 0;
         height: 100%;
-    }   
+    }
+
     table {
+        /* transform: rotate(90deg); */
+        width: 100%;
+        overflow-x: scroll;
+    }
+    
+    .nav-bar {
+        text-align: center;
+    }
+
+    .nav-bar ul {
+        display: inline-block;
+    }
+
+    
+
+     table {
         transform: rotate(90deg);
         width:100%;
         overflow-x: scroll;      
@@ -105,6 +136,6 @@ footer {
     }
 
     .about {
-        width: 100%;
+        width: 98%;
      }
 }
