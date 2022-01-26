@@ -182,8 +182,35 @@ footer {
     margin: auto;
 }
 
+.call-to-action-home {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 1em;
+}
 
+.call-to-action-home img {
+    width: 22%;
+    height: auto;
+}
 
+.home-member {
+    text-align: center;
+    width: 38%;
+    
+}
+
+.home-member a {
+    text-decoration: underline;
+    color: #780000;
+}
+
+.fees-home {
+    justify-content: center;
+    }
+
+    .fees-home ul {
+        list-style-type: none;
+    }
 
 /*facilities page*/
 

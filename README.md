@@ -34,7 +34,8 @@ The committee wants this website:
 
 The colour palette fulfilled several desirous results
 <ol>
-<li>The colours were bright, varied and strongly contrasting</li>
+<li>The colours are bright</li>
+<li>The colours are contrasting</li>
 <li>The colours, in particular the two shades of blue and the red shades match the colours of the local GAA and LGFA clubs who are the primary users and supporters of the Centre</li>
 </ol>
 
@@ -60,6 +61,10 @@ The colour palette fulfilled several desirous results
 <li>Google Fonts</li>
 <li>Stocksnap.io</li>
 </ul> 
+
+## Bugs, bugs and more bugs...
+
+<img src="./assets/images/alignment-bug.png">
 
 
 
