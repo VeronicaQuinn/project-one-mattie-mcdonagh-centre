@@ -28,6 +28,54 @@ The committee wants this website:
 
 ### Structure Plane
 
+### The Home Page
+The index.html page will have:
+<ul>
+<li>a HEADER with a three-word logo to the left.  To the right will be a phone number, email and address, all with working links.  To their right there is an embedded map with a working link.  The HEADER, NAVIGATION BAR and FOOTER will all feature throughout all the website pages</li>
+<li>a NAVIGATION BAR (a Menu) with the headings:
+<ul>
+<li>HOME</li>
+<li>SCHEDULE</li>
+<li>FACILITIES and</li>
+<li>BECOME A MEMBER!</li>
+</ul>
+</li>
+<li>an ABOUT section with content about the Centre and containing an image</li>
+<li>a section with a CALL TO ACTION including images, link to membership.html page and fee schedule</li>
+<li>a FOOTER with social media links for Facebook, Twitter, YouTube and Istagram</li>
+</ul>
+
+### The Schedule Page
+
+The schedule.html page will contain a TABLE with the schedule for the main sports hall
+
+### The Facilities Page
+
+The facilities.html page will feature:
+<ul>
+<li>an IMAGE of the main sports hall</li>
+<li>a section with content about the SPORTS HALL and what it has to offer and an image of a banquet that took place there</li>
+<li>a section about the NIALL WALSH FIELD containing two images and a paragraph about the DRESSING ROOMS</li>
+<li>a section about the GYM with an image</li>
+<li>a section about the KITCHEN with an image</li>
+</ul>
+
+### The Become a Member! Page
+
+The membership.html page will contain a form requiring the following input fields:
+<ul>
+<li>Name</li>
+<li>Address</li>
+<li>Phone Number</li>
+<li>Email </li>
+<li>Radio Buttons for Membership Type:  Adult, Juvenile and Senior</li>
+<li>Checkbox with an Agree Conditions paragraph</li>
+<li>Please Submit button</li>
+
+</ul>
+
+</ul>
+
 ### Skeleton Plane
 
 ### Surface Plane
@@ -65,6 +113,8 @@ The colour palette fulfilled several desirous results
 ## Bugs, bugs and more bugs...
 
 <img src="./assets/images/alignment-bug.png">
+
+
 
 
 
