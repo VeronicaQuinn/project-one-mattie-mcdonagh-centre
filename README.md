@@ -2,10 +2,11 @@
 
 ## Project Objectives
 The main objective of this project is to demonstrate competency in HTML and CSS languages.  I am creating a website for the Mattie McDonagh Community Centre campus in Ballygar, County Galway, Ireland.  My hope would be that this would eventually serve as the framework to create a genuine website in the future.  My intention is to showcase everything the facility has to offer with a clean design, accessibility and easy-to- navigate pages which includes all the required learning outcomes.
-
+<br>
+<br>
 ## UX Planes
 
-### Strategy Plane
+### STRATEGY PLANE
 ### Brief
 
 The Mattie McDonagh Centre, (henceforth known as "the Centre") is managed by the Ballygar & Districts Co Ltd committee which is entirely made up of volunteers
@@ -16,8 +17,10 @@ The committee wants this website:
 <li>To increase membership</li>
 <li>To provide up-to-date information to users and the broader community</li>
 </ol>
+<br>
 
-### Scope Plane
+
+### SCOPE PLANE
 
 <p>The four pages of the website will be designed with a view to meeting each of the three main aims individually but with a cohesive flow between them</p>
 <ul>
@@ -25,8 +28,9 @@ The committee wants this website:
 <li>The <u>SCHEDULE</u> page will contain a table featuring the sports hall schedule</li>
 <li>The <u>FACILITIES</u> page will include numerous images of everything that the Centre has to offer</li>
 <li>The <u>BECOME A MEMBER!</u> page will contain a membership form which will include different input types, radio buttons, a checkbox and submit with a number of required inputs</li>
+<br>
 
-### Structure Plane
+### STRUCTURE PLANE
 
 ### The Home Page
 The index.html page will have:
@@ -44,10 +48,12 @@ The index.html page will have:
 <li>a section with a CALL TO ACTION including images, link to membership.html page and fee schedule</li>
 <li>a FOOTER with social media links for Facebook, Twitter, YouTube and Istagram</li>
 </ul>
+<br>
 
 ### The Schedule Page
 
 The schedule.html page will contain a TABLE with the schedule for the main sports hall
+<br>
 
 ### The Facilities Page
 
@@ -59,6 +65,7 @@ The facilities.html page will feature:
 <li>a section about the GYM with an image</li>
 <li>a section about the KITCHEN with an image</li>
 </ul>
+<br>
 
 ### The Become a Member! Page
 
@@ -68,15 +75,40 @@ The membership.html page will contain a form requiring the following input field
 <li>Address</li>
 <li>Phone Number</li>
 <li>Email </li>
-<li>Radio Buttons for Membership Type:  Adult, Juvenile and Senior</li>
+<li>Radio Buttons for 'Membership Type:  Adult, Juvenile and Senior'</li>
 <li>Checkbox with an Agree Conditions paragraph</li>
-<li>Please Submit button</li>
+<li>'Please Submit' button</li>
 
 </ul>
 
 </ul>
 
 ### Skeleton Plane
+
+### Home Page-index.html
+<br>
+<img src="./assets/images/skeleton-home-page.jpg"  >
+
+<br>
+
+### Schedule Page-schedule.html
+<br>
+<img src="./assets/images/skeleton-schedule.jpg"  >
+
+<br>
+
+### Facilities Page-facilities.html
+<br>
+<img src="./assets/images/skeleton-facilities.jpg">
+
+<br>
+
+### Become a Member Page-membership.html
+<br>
+<img src="./assets/images/skeleton-membership.jpg"  >
+
+<br>
+
 
 ### Surface Plane
 
@@ -88,11 +120,13 @@ The colour palette fulfilled several desirous results
 </ol>
 
 
-## Technologies Used
-
-## Credit & Resources Used
+## Technologies, Credit and Resources Used
 
 <ul>
+<li>HTMLS</li>
+<li>CSS</li>
+<li>Gitpod</li>
+<li>Github</li>
 <li>Code Institute Diploma in Software Development (E-commerce Applications) Programme materials</li>
 <li>Code Institute Slack Community in particular:
 <ul><li>DaveHorrocks_5P_lead</li>
@@ -108,9 +142,12 @@ The colour palette fulfilled several desirous results
 <li>Font Awesome (icons)</li>
 <li>Google Fonts</li>
 <li>Stocksnap.io</li>
+<li>Coolors.co</li>
 </ul> 
 
 ## Bugs, bugs and more bugs...
+
+
 
 <img src="./assets/images/alignment-bug.png">
 
