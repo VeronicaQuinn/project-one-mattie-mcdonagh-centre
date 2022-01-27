@@ -178,6 +178,8 @@ footer {
     padding: 30px;
     width: 70%;
     margin: auto;
+    font-weight: bold;
+    color: #780000;
 }
 
 /* .call-to-action-home {
@@ -322,28 +324,35 @@ footer {
 /*schedule page*/
 
 #schedule-table {
-    padding: 5px 5px 30px;}
+    padding: 5px 5px 30px; 
+}
 
 table {
-    width: 100%;
+    
     border-collapse: collapse;
     background-color: #fae6fa;
     padding: 16px 10px;
+    overflow-x:auto
 }
 
 th,
 td {
     padding: 16px 7px;
+    font-weight: bold;
+    color: #23297A;
 }
 
 table,
 th,
 td {
-    border: 2px solid #23297A;
+    border: 2px solid #780000 ;
 }
 
 td {
     text-align: left;
+}
+th {
+    background-color:#f9c391 ;
 }
 
 /* form*/

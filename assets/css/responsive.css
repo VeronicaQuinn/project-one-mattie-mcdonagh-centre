@@ -1,99 +1,113 @@
 @media screen and (max-width: 850px) {
-    
-#header-nav-map {
-    display: none;
+
+    /* header and nav bar */
+
+    #header-nav-map {
+        display: none;
+    }
+
+    .nav-bar {
+        justify-content: space-between;
+        padding: 0 8px;
+    }
+
+    .nav-bar ul {
+        justify-content: space-between;
+    }
+
+    .nav-bar-container {
+        padding: 1rem 0;
+    }
+
+    .nav-bar a {
+        font-size: 15.5pt;
+        letter-spacing: 1px;
+        padding: 3px
+    }
+
+    .about {
+        width: 90%;
+    }
+
+    /* schedule page */
+
+    /* #schedule-table {
+    padding: 2rem;
+    height: 100%;
 }
 
-.nav-bar {
-    justify-content: space-between;
-    padding: 0 8px;
-}
+table {
+    transform: rotate(90deg);
+    width:100%;
+    overflow-x: scroll;      
+} */
 
-.nav-bar ul {
-    justify-content: space-between;
-}
+    /* membership page */
 
-.nav-bar-container {
-    padding: 1rem 0;
-}
+    form {
+        width: 87%;
+    }
 
-.nav-bar a {
-    font-size: 15.5pt;
-    letter-spacing: 1px;
-    border-right: 2px solid #780000;
-padding: 3px
-}
+    input,
+    textarea {
+        width: 100%;
+    }
 
-.nav-bar a:last-of-type {
-    
-    border-right: none;
-    padding: 3px 0 3px 3px;
-}
+    /* footer */
 
-.about {
-      width: 90%;
-   }
+    footer {
+        justify-content: space-evenly;
+        padding: 0 50px;
+    }
 
-form {
-    width: 87%;
-}
+    /* facilities page */
 
-input,
-textarea {
-    width: 100%;
-}
-
-
-footer {
-    justify-content: space-evenly;
-    padding: 0 50px;
-}
-
-.facilities-main-hall {
-    display: inline-block;
-    /* justify-content: space-evenly;
+    .facilities-main-hall {
+        display: inline-block;
+        /* justify-content: space-evenly;
     margin: 20px 0; */
-}
+    }
 
-.main-hall-content1 {
-   width: 100%;
-}
+    .main-hall-content1 {
+        width: 100%;
+    }
 
-.main-hall-column2 {
-    /* flex-basis: 56%; */
-    /* display: flex;
+    .main-hall-column2 {
+        /* flex-basis: 56%; */
+        /* display: flex;
     flex-direction: column; */
-    /* justify-content: space-around; */
+        /* justify-content: space-around; */
 
-}
+    }
 
-.main-hall-banquet-image {
-    /* flex-basis: 70%; */
-    /* height: auto;
+    .main-hall-banquet-image {
+        /* flex-basis: 70%; */
+        /* height: auto;
     width: 89%;
     overflow: hidden;
     align-self: center; */
-}
+    }
 
-.field-hurley-image {
-    display: none;
-}
+    .field-hurley-image {
+        display: none;
+    }
 
-.goalposts-image {
-
-    overflow: hidden;
-     width: 50%;
-}
+    .goalposts-image {
+        overflow: hidden;
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 620px) {
     .header-section1 {
         display: block;
-        padding: 1em 2.5em 0.5em;
+        padding: 0.2rem 1rem 0.5em;
         align-items: center;
     }
+
     h1 {
-        padding: 10px 10px 0;
+        font-size: x-large;
+        text-align: center;
     }
 
     .header-nav {
@@ -101,17 +115,8 @@ footer {
         text-shadow: 3px 3px #4f000b;
     }
 
-    #schedule-table {
-        padding: 0;
-        height: 100%;
-    }
 
-    table {
-        /* transform: rotate(90deg); */
-        width: 100%;
-        overflow-x: scroll;
-    }
-    
+
     .nav-bar {
         text-align: center;
     }
@@ -120,22 +125,28 @@ footer {
         display: inline-block;
     }
 
-    
 
-     table {
-        transform: rotate(90deg);
-        width:100%;
-        overflow-x: scroll;      
-    }
+
+
 }
 
 @media screen and (max-width: 450px) {
+    /* home page */
+
     .header-nav {
-        padding: 18px 0 20px 5px;
+        padding: 1rem 0.3rem;
         text-shadow: 3px 3px #4f000b;
+    }
+
+    .nav-bar-container {
+        padding: 0;
     }
 
     .about {
         width: 98%;
-     }
+    }
+
+    .form-content {
+        padding: 6px 9px 26px;
+    }
 }
