@@ -5,7 +5,7 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
-    
+
 }
 
 body {
@@ -47,7 +47,7 @@ h3 {
 /*header*/
 
 header {
-    padding: 5px 5px 5px 7px;
+    padding: .1rem;
     background-color: #23297A;
     width: 100%;
     position: sticky;
@@ -57,23 +57,19 @@ header {
 
 .header-section1 {
     display: flex;
-    padding: 1em 0.5em 2em;
     align-items: center;
 }
 
 h1 {
-    font-size: xxx-large;
+    font-size: 2.5rem;
     letter-spacing: 3px;
     color: rgb(130, 183, 243);
     justify-self: flex-start;
     flex: 49%;
     text-shadow: 5px 5px #4F000B;
-    padding-left: 8px;
-   }
-
-.header-nav-list {
-    flex: 25%;
+    padding: 1rem 1rem 0.1rem;
 }
+
 
 .header-nav {
     padding-right: 14px;
@@ -90,8 +86,8 @@ h1 {
 }
 
 .header-nav-list li {
-    font-size: medium;
-    padding-top: 16px;
+    font-size: .9rem;
+    padding-top: 1rem;
     color: rgb(152, 195, 243);
     list-style-type: none;
 }
@@ -112,7 +108,7 @@ h1 {
 
 .nav-bar-container {
     background-color: rgb(130, 183, 243);
-    padding: 20px;
+    padding: .8rem;
     width: 100%;
 }
 
@@ -128,12 +124,12 @@ h1 {
     font-size: x-large;
     text-transform: uppercase;
     font-weight: 900;
-    letter-spacing: 2px;
+    letter-spacing: 1.2px;
 }
 
 .nav-bar li {
     list-style-type: none;
-   
+
 }
 
 .nav-bar a:hover {
@@ -182,24 +178,21 @@ footer {
     color: #780000;
 }
 
-/* .call-to-action-home {
-    display: flex;
-    justify-content: space-around;
-    padding: 2em 1em 3em;
-    border-top: 2px solid #A2BCE0;
+.call-to-action-home {
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.call-to-action-home > *{
+    padding: 1rem;
 }
 
 .call-to-action-home img {
-    width: 22%;
+    width:280px;
     height: auto;
-} */
-
-.home-member {
-    text-align: center;
-    padding: 0 1rem;
 }
 
-.home-member a {
+.call-to-action-home a {
     text-decoration: underline;
     color: #780000;
     font-weight: bold;
@@ -207,11 +200,11 @@ footer {
 
 .fees-home {
     justify-content: center;
-    }
+}
 
-    .fees-home ul {
-        list-style-type: none;
-    }
+.fees-home ul {
+    list-style-type: none;
+}
 
 /*facilities page*/
 
@@ -227,8 +220,9 @@ footer {
 
 .facilities-main-hall {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 20px 0;
+    padding: 0 2rem;
 }
 
 .main-hall-image {
@@ -248,19 +242,20 @@ footer {
 }
 
 .main-hall-banquet-image {
-    flex-basis: 70%;
+    flex-basis: 71%;
     height: auto;
-    width: 89%;
+    width: 101%;
     overflow: hidden;
     align-self: center;
+    padding-top: 1.5rem;
 }
 
 .facilities-field {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 20px 0;
     border-top: 2px dashed #A2BCE0;
-    padding: 40px 0 10px;
+    padding: 2rem .5rem 0;
 }
 
 .goalposts-image {
@@ -324,15 +319,15 @@ footer {
 /*schedule page*/
 
 #schedule-table {
-    padding: 5px 5px 30px; 
+    padding: 5px 5px 30px;
 }
 
 table {
-    
+
     border-collapse: collapse;
     background-color: #fae6fa;
     padding: 16px 10px;
-    overflow-x:auto
+    overflow-x: auto
 }
 
 th,
@@ -345,14 +340,15 @@ td {
 table,
 th,
 td {
-    border: 2px solid #780000 ;
+    border: 2px solid #780000;
 }
 
 td {
     text-align: left;
 }
+
 th {
-    background-color:#f9c391 ;
+    background-color: #f9c391;
 }
 
 /* form*/
@@ -440,4 +436,3 @@ button[type=submit]:hover {
 }
 
 /* form ends*/
-

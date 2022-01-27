@@ -118,6 +118,9 @@ The colour palette fulfilled several desirous results
 <li>The colours are contrasting</li>
 <li>The colours, in particular the two shades of blue and the red shades match the colours of the local GAA and LGFA clubs who are the primary users and supporters of the Centre</li>
 </ol>
+<br>
+
+![Website color pallete](./assets/images/coloor-palette.pdf)
 
 
 ## Technologies, Credit and Resources Used

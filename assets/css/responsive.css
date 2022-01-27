@@ -8,7 +8,7 @@
 
     .nav-bar {
         justify-content: space-between;
-        padding: 0 8px;
+        padding: 0 .5rem;
     }
 
     .nav-bar ul {
@@ -16,12 +16,12 @@
     }
 
     .nav-bar-container {
-        padding: 1rem 0;
+        padding: .3rem;
     }
 
     .nav-bar a {
-        font-size: 15.5pt;
-        letter-spacing: 1px;
+        font-size: 14pt;
+        letter-spacing: 1.5px;
         padding: 3px
     }
 
@@ -106,16 +106,14 @@ table {
     }
 
     h1 {
-        font-size: x-large;
+        font-size: 1.8rem;
         text-align: center;
     }
 
     .header-nav {
-        padding: 18px 0 20px 44px;
+        padding-left: 2rem;
         text-shadow: 3px 3px #4f000b;
     }
-
-
 
     .nav-bar {
         text-align: center;
@@ -125,15 +123,17 @@ table {
         display: inline-block;
     }
 
+    .nav-bar a {
+        font-size: 11pt;
+    }
+
+    .header-nav-list li {
+        padding-top: 0.6rem;
+    }
 }
 
 @media screen and (max-width: 450px) {
     /* home page */
-
-    .header-nav {
-        padding: 1rem 0.3rem;
-        text-shadow: 3px 3px #4f000b;
-    }
 
     .nav-bar-container {
         padding: 0;
