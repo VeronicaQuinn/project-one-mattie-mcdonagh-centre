@@ -1,5 +1,9 @@
 # Project Portfolio 1 - HTML and CSS Essentials
 
+### [Click here to view the site](https://veronicaquinn.github.io/project-one-mattie-mcdonagh-centre/)
+### [Click here to view the repository.](https://github.com/VeronicaQuinn/project-one-mattie-mcdonagh-centre)
+
+
 ## Project Objectives
 The main objective of this project is to demonstrate competency in HTML and CSS languages.  I am creating a website for the Mattie McDonagh Community Centre campus in Ballygar, County Galway, Ireland.  My hope would be that this would eventually serve as the framework to create a genuine website in the future.  My intention is to showcase everything the facility has to offer with a clean design, accessibility and easy-to- navigate pages which includes all the required learning outcomes.
 <br>
@@ -146,6 +150,10 @@ The colour palette fulfilled several desirous results
 <li>Google Fonts</li>
 <li>Stocksnap.io</li>
 <li>Coolors.co</li>
+<li>freefrontend.com (for background image) 
+Underwater CSS Pattern
+Made by Laura Sage
+August 12, 2016</li>
 </ul> 
 
 ## Bugs, bugs and more bugs...
