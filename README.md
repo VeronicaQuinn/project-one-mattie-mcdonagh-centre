@@ -1,13 +1,22 @@
 # Project Portfolio 1 - HTML and CSS Essentials
 
+# Mattie McDonagh Centre - a community centre based in Ballygar, County Galway
+## by Veronica Quinn
+
+
 ### [Click here to view the site](https://veronicaquinn.github.io/project-one-mattie-mcdonagh-centre/)
 ### [Click here to view the repository.](https://github.com/VeronicaQuinn/project-one-mattie-mcdonagh-centre)
+
 
 
 ## Project Objectives
 The main objective of this project is to demonstrate competency in HTML and CSS languages.  I am creating a website for the Mattie McDonagh Community Centre campus in Ballygar, County Galway, Ireland.  My hope would be that this would eventually serve as the framework to create a genuine website in the future.  My intention is to showcase everything the facility has to offer with a clean design, accessibility and easy-to- navigate pages which includes all the required learning outcomes.
 <br>
 <br>
+
+![image](https://user-images.githubusercontent.com/95372009/151541088-0f91bbc8-ed03-4c92-924f-68b216299688.png)
+
+
 ## UX Planes
 
 ### STRATEGY PLANE
@@ -91,13 +100,17 @@ The membership.html page will contain a form requiring the following input field
 
 ### Home Page-index.html
 <br>
-<img src="./assets/images/skeleton-home-page.jpg"  >
+<img src="./assets/images/skeleton-home-page.jpg">
+
+I removed the background image in the Header in favour of a hero-image as it was more visually appealing and better for accessibility.  I added a 'call-to-action' section, both to make the site easier to navigate and to fill out the home page and to fulfil the brief of increasing membership and as another link to the facilities page which has the most visual impact
 
 <br>
 
 ### Schedule Page-schedule.html
 <br>
 <img src="./assets/images/skeleton-schedule.jpg"  >
+
+I added a horizontal scroll bar as a media query because the table element should maintain its structural integrity.  I will replace the table element in the future in favour of more responsive elements
 
 <br>
 
@@ -120,14 +133,14 @@ The colour palette fulfilled several desirous results
 <ol>
 <li>The colours are bright</li>
 <li>The colours are contrasting</li>
-<li>The colours, in particular the two shades of blue and the red shades match the colours of the local GAA and LGFA clubs who are the primary users and supporters of the Centre</li>
+<li>The colours, in particular the two shades of blue and the red shades and the background green closely match the colours of the local GAA and LGFA clubs who are the primary users and supporters of the Centre</li>
 </ol>
 <br>
 
 ![image](https://user-images.githubusercontent.com/95372009/151472328-6e54fea3-5e22-4504-907b-7a2c91eb59f4.png)
 
 
-I used a contrasting background that makes the site pop and still allows for sharp contrast
+I used a contrasting background that makes the site pop and still allows for sharp contrast especially the text elements
 
 
 ## Technologies, Credit and Resources Used
@@ -171,7 +184,7 @@ My site was created using Gitpod and deployed using Github pages
 <li>Select SOURCE and NONE</li>
 <li>Select BRANCH: MAIN</li>
 <li>SAVE</li>
-<li>Happy Days!  Your site is live!! (...or will be very shortly...) </li></ol>
+<li>Happy Days!  Site is live!! (...or will be very shortly...) (url) generated</li></ol>
 
 ## Site Testing
 
@@ -187,15 +200,28 @@ Manual Testing
 
 All pages and links were tested in the GitHub preview, and on the live site on both desktops and mobile phones
 
+### On all pages
 <ul>
-<li>Header: Phone number, email and address nav and embedded map all 
+<li>Header: Phone number, email and address nav and embedded map</li>
+<li>Nav Bar:  Home, Schedule, Facilities and Become a Member!</li>
+<li>Footer:  Facebook, Twitter, YouTube and Instragram icons</li>
+</ul>
 
+### Home Page
+<li>'call-to-action' Section:  Text links to Become a Member and Facilities pages</li>
 
+### Become a Member! Page
+Name, Address, Phone Number, Email, Membership Type, Checkbox and Submit buttons
+All except Address have a 'required' attribute
+Checkbox is 'ticked'
 
+All internal and external links and required input field  worked perfectly
 
 ## Bugs, bugs and more bugs...
 
-Schedule Page:  On the live site the desktop view of the table floated left 
+### Schedule Page:  
+
+On the live site the desktop view of the table floated left 
 
 ![image](https://user-images.githubusercontent.com/95372009/151528909-f5ab99c4-ec79-41d6-9dcf-91810d11c1f9.png)
 
@@ -203,7 +229,29 @@ I changed the code to:
 
 ![image](https://user-images.githubusercontent.com/95372009/151530932-693f64b1-7c4b-4d7d-b06f-b6d955ef5adf.png)
 
-<img src="./assets/images/alignment-bug.png">
+The table now is vertically-aligned in GitHub preview, not currently showing on live site
+
+### Facilities Page:
+
+In order to align some elements both vertically and horizontally I opted to use Flexbox however it required an onerous number of divs
+
+![image](https://user-images.githubusercontent.com/95372009/151536190-6f0aa8af-ff41-4709-b9db-126c97ce9f72.png)
+
+
+### Nav Bar:
+
+When writing the code I had divs included in my <ul>.  When I ran it through validation Warnings appeared so I re-ordered the code
+
+![image](https://user-images.githubusercontent.com/95372009/151536022-0996e035-aae4-42ed-a416-e4781772d1f3.png)
+
+## Future Implementation
+
+Header:  The header currently takes up too much real estate on a mobile view.  The Address and embedded Map links can be moved to the Footer and the Nav Bar can be turned into a Hamburger Menu
+
+Home Page:  The Facilities Page should be the opening page of the site to make it more visually appealing and to engage potential users.  The 'About' section and 'call-to-action' content sections could be incorporated into a better home page
+
+Schedule:  The table can be replaced with a different element that would be better responsively
+
 
 
 
