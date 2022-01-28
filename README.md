@@ -160,7 +160,26 @@ August 12, 2016</li>
 <li>Justyna Golawska on how to insert images into README.md</li>
 </ul> 
 
-![image](https://user-images.githubusercontent.com/95372009/151471662-158ab1c4-d228-4177-9570-069fdb1c46e1.png)
+## Site Deployment
+
+My site was created using Gitpod and deployed using Github pages
+
+<ol>
+<li>Access repository using https://gitpod.io/workspaces</li>
+<li>Click the SETTINGS button</li>
+<li>Scroll down to GITHUB PAGES</li>
+<li>Select SOURCE and NONE</li>
+<li>Select BRANCH: MAIN</li>
+<li>SAVE</li>
+<li>Happy Days!  Your site is live!! (...or will be very shortly...) </li></ol>
+
+## Site Testing
+
+W3C HTML and CSS3 Validators
+
+![image](https://user-images.githubusercontent.com/95372009/151478109-db1ff0f8-4644-497b-a6ff-4c137bd8a01e.png)
+
+![image](https://user-images.githubusercontent.com/95372009/151478579-8aee9daa-ea51-4aa0-a94f-9ec1eb55ab5c.png)
 
 
 ## Bugs, bugs and more bugs...

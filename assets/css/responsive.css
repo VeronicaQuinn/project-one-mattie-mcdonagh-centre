@@ -27,16 +27,12 @@
 
     /* schedule page */
 
-    /* #schedule-table {
-    padding: 2rem;
-    height: 100%;
-}
-
-table {
-    transform: rotate(90deg);
-    width:100%;
-    overflow-x: scroll;      
-} */
+    #schedule-table {
+        padding: 2rem;
+        height: 100%;
+        width: auto;
+        overflow-x: scroll;
+    }
 
     /* membership page */
 
@@ -79,11 +75,11 @@ table {
 
 @media screen and (max-width: 800px) {
 
-.facilities-field {
-    display: block;
-    padding: 0 3rem 1rem;
-    text-align: center;
-}
+    .facilities-field {
+        display: block;
+        padding: 0 3rem 1rem;
+        text-align: center;
+    }
 
 }
 
@@ -96,8 +92,8 @@ table {
 
     h1 {
         font-size: 1.65rem;
-    text-align: center;
-    padding: 0.5rem 0rem 0;
+        text-align: center;
+        padding: 0.5rem 0rem 0;
     }
 
     .header-nav {
@@ -107,7 +103,7 @@ table {
 
     #header-nav-map {
         display: none;
-    } 
+    }
 
     .nav-bar {
         text-align: center;
@@ -135,7 +131,7 @@ table {
 
     h1 {
         font-size: 1.5rem;
-        padding: .5rem;
+        padding: 0;
     }
 
     .nav-bar-container {
