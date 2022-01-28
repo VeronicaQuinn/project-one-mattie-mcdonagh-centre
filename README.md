@@ -177,14 +177,31 @@ My site was created using Gitpod and deployed using Github pages
 
 W3C HTML and CSS3 Validators
 
+No errors were returned after testing all pages within the site.  The following warnings did appear but the sections they referred to did not need, nor would it be ideal, to add headers to them
+
 ![image](https://user-images.githubusercontent.com/95372009/151478109-db1ff0f8-4644-497b-a6ff-4c137bd8a01e.png)
 
 ![image](https://user-images.githubusercontent.com/95372009/151478579-8aee9daa-ea51-4aa0-a94f-9ec1eb55ab5c.png)
 
+Manual Testing
+
+All pages and links were tested in the GitHub preview, and on the live site on both desktops and mobile phones
+
+<ul>
+<li>Header: Phone number, email and address nav and embedded map all 
+
+
+
 
 ## Bugs, bugs and more bugs...
 
+Schedule Page:  On the live site the desktop view of the table floated left 
 
+![image](https://user-images.githubusercontent.com/95372009/151528909-f5ab99c4-ec79-41d6-9dcf-91810d11c1f9.png)
+
+I changed the code to:
+
+![image](https://user-images.githubusercontent.com/95372009/151530932-693f64b1-7c4b-4d7d-b06f-b6d955ef5adf.png)
 
 <img src="./assets/images/alignment-bug.png">
 

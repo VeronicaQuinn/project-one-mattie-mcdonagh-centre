@@ -329,15 +329,15 @@ footer {
 /*schedule page*/
 
 #schedule-table {
-    padding: 5px 5px 30px;
-}
+       text-align: center;
+    }
 
 table {
-
     border-collapse: collapse;
     background-color: #fae6fa;
-    padding: 16px 10px;
-    overflow-x: auto
+    overflow-x: auto;
+    width: max-content;
+    margin: 0 auto;
 }
 
 th,
