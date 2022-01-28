@@ -267,9 +267,15 @@ footer {
     padding: 1.5rem 1rem;
 }
 
+.goalposts-image img {
+    width:30rem;
+    height: auto;
+}
+
 .field-content {
     flex-basis: 58%;
     padding-bottom: 1rem;
+    align-self: center;
 }
 
 .dressing-rooms-content {
@@ -421,8 +427,6 @@ input[type=checkbox] {
     width: 24px;
     height: 17px;
 }
-
-/* Submit button */
 
 button[type=submit] {
     padding: 10px 12px;

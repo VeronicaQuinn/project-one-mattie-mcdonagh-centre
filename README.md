@@ -124,7 +124,10 @@ The colour palette fulfilled several desirous results
 </ol>
 <br>
 
-![Website color pallete](./assets/images/coloor-palette.pdf)
+![image](https://user-images.githubusercontent.com/95372009/151472328-6e54fea3-5e22-4504-907b-7a2c91eb59f4.png)
+
+
+I used a contrasting background that makes the site pop and still allows for sharp contrast
 
 
 ## Technologies, Credit and Resources Used
@@ -154,7 +157,11 @@ The colour palette fulfilled several desirous results
 Underwater CSS Pattern
 Made by Laura Sage
 August 12, 2016</li>
+<li>Justyna Golawska on how to insert images into README.md</li>
 </ul> 
+
+![image](https://user-images.githubusercontent.com/95372009/151471662-158ab1c4-d228-4177-9570-069fdb1c46e1.png)
+
 
 ## Bugs, bugs and more bugs...
 
