@@ -222,9 +222,9 @@ footer {
 
 .facilities-main-hall {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 20px 0;
-    padding: 0 2rem;
+    padding: 0 2.5rem
 }
 
 .main-hall-image {
@@ -252,30 +252,32 @@ footer {
     padding-top: 1.5rem;
 }
 
+.field-section {
+    border-top: 2px dashed #A2BCE0;
+}
+
 .facilities-field {
     display: flex;
     justify-content: space-between;
-    margin: 20px 0;
-    border-top: 2px dashed #A2BCE0;
-    padding: 2rem .5rem 0;
+       padding: 0 2rem;
 }
 
 .goalposts-image {
-    flex-basis: 33%;
-    overflow: hidden;
-    margin: auto 0;
+        text-align: center;
+    padding: 1.5rem 1rem;
 }
 
 .field-content {
-    flex-basis: 34%;
+    flex-basis: 58%;
+    padding-bottom: 1rem;
 }
 
 .dressing-rooms-content {
-    padding: 0 30px;
+    padding: 0 7rem;
 }
 
 .field-hurley-image {
-    flex-basis: 25%;
+    flex-basis: 38%;
     margin: auto 0;
     overflow: hidden;
 }
@@ -308,14 +310,13 @@ footer {
 
 .kitchen-image {
     flex-basis: 35%;
+    padding-top: 1rem;
 }
 
 .kitchen-content {
     flex-basis: 37%;
     align-self: center;
 }
-
-
 /*facilities page ends*/
 
 /*schedule page*/

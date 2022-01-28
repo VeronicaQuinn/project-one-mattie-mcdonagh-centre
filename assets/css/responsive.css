@@ -60,38 +60,31 @@ table {
 
     .facilities-main-hall {
         display: inline-block;
-        /* justify-content: space-evenly;
-    margin: 20px 0; */
     }
 
     .main-hall-content1 {
         width: 100%;
     }
 
-    .main-hall-column2 {
-        /* flex-basis: 56%; */
-        /* display: flex;
-    flex-direction: column; */
-        /* justify-content: space-around; */
-
+    .facilities-kitchen,
+    .facilities-gym {
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+        border-top: 2px solid #A2BCE0;
+        padding: 1.5rem 1rem
     }
 
-    .main-hall-banquet-image {
-        /* flex-basis: 70%; */
-        /* height: auto;
-    width: 89%;
-    overflow: hidden;
-    align-self: center; */
-    }
+}
 
-    .field-hurley-image {
-        display: none;
-    }
+@media screen and (max-width: 800px) {
 
-    .goalposts-image {
-        overflow: hidden;
-        width: 50%;
-    }
+.facilities-field {
+    display: block;
+    padding: 0 3rem 1rem;
+    text-align: center;
+}
+
 }
 
 @media screen and (max-width: 620px) {
@@ -130,6 +123,10 @@ table {
 
     .header-nav-list li {
         padding-top: 0.6rem;
+    }
+
+    .dressing-rooms-content {
+        padding: 0 2rem;
     }
 }
 
